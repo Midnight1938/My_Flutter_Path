@@ -1,0 +1,34 @@
+#+title: Working with [[https:flutter.dev][Flutter]]
+
+* Container images
+A good container image seems to be the ~instrumentisto/flutter~ image available from distributors like quary and docker hub
+* Getting a web server running
+You can simply run the given code to run a web server model that you can access from your host computer via ~localhost:3000~. With the ~--release~ tag being optional.
+#+begin_src bash
+flutter run --release -d web-server --web-hostname=0.0.0.0 --web-port=3000
+#+end_src
+
+* Good [[https:pub.dev/][packages]] for flutter
+- [[https:medium.flutterdevs.com/exploring-csv-in-flutter-fafc57b02eb1][Working with CSV]]
+- [[https:pub.dev/packages/printing][Print to pdf]]
+- [[https:pub.dev/packages/sqflite][SQLite]]
+- [[https:pub.dev/packages/sqflite_common_ffi][SQLite3 based ffi implementation]]
+
+* Interesting Flutter sources
+- [[https:flutter.dev/events/puzzle-hack][Puzzle Hack]]
+- [[youtube:PaPUkxYHDUw][Clocks with flutter]]
+
+** Android Sources
+*** Android Design Toolkit
+- [[https:flutter.github.io/samples/web/material_3_demo/#/][Material 3 showcase]]
+
+
+** Windows
+*** Windows Design Toolkit
+- [[https:learn.microsoft.com/en-us/windows/apps/design/basics/][Design Basics]]
+- [[https:learn.microsoft.com/en-us/windows/apps/design/downloads/][Windows apps toolkits and samples]]
+- [[youtube:bee2AHQpGK4][Windows style titlebar]]
+
+** Linux Sources
+*** Packaging Apps
+- [[github:Merrit/flutter_flatpak_example][Flatpak packaging]]
