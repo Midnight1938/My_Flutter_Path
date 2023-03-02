@@ -23,7 +23,7 @@
 
   // Configure tool-specific properties.
   // "customizations": {},
-  "runArgs": ["--userns=keep-id"],
+  "runArgs": ["--userns=keep-id", "-e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix"],
   "containerEnv": {
     "HOME": "/home/midnight"
   },

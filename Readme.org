@@ -17,11 +17,9 @@ flutter run --release -d web-server --web-hostname=0.0.0.0 --web-port=3000
 * Interesting Flutter sources
 - [[https:flutter.dev/events/puzzle-hack][Puzzle Hack]]
 - [[youtube:PaPUkxYHDUw][Clocks with flutter]]
-
 ** Android Sources
 *** Android Design Toolkit
 - [[https:flutter.github.io/samples/web/material_3_demo/#/][Material 3 showcase]]
-
 
 ** Windows
 *** Windows Design Toolkit
@@ -32,3 +30,7 @@ flutter run --release -d web-server --web-hostname=0.0.0.0 --web-port=3000
 ** Linux Sources
 *** Packaging Apps
 - [[github:Merrit/flutter_flatpak_example][Flatpak packaging]]
+
+* Other sources
+- A [[https:copr.fedorainfracloud.org/coprs/carzacc/flutter/][copr repo]] for setting flutter up in fedora
+  Which installs the SDK in the ~~/flutter~ folder
